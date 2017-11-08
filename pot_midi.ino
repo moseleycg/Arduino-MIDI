@@ -1,3 +1,10 @@
+//Arduino Mega
+// 15 Potemciometro B10K
+// http://projectgus.github.io/hairless-midiserial/
+// http://www.tobias-erichsen.de/software/loopmidi.html
+
+
+
 int val = 0; //Our initial pot values. We need one for the first value and a second to test if there has been a change made. This needs to be done for all 3 pots.
 int lastVal = 0;
 int val2 = 0;
